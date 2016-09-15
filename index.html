@@ -2,7 +2,7 @@
 <html>
 <head>
 <meta charset="gb2312">
-<title>中国象棋 in html5</title>
+<title>XiangQi online</title>
 <!--
 /**
  * ChinaChess - in html5
@@ -13,6 +13,9 @@
  */
 -->
 <link href="css/chess.css" rel="stylesheet" type="text/css">
+
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
 </head>
 <body>
 <div class="box" id="box">
@@ -29,8 +32,8 @@
 				
 			-->
 				
-					<input type="button" name="offensivePlay" id="tyroPlay" value="New Game" />
-				<input type="button" name="offensivePlay" id="superPlay" value="Reset game" />
+					<input type="button" class="btn btn-primary" name="offensivePlay" id="tyroPlay" value="New Game" />
+				<input type="button" class="btn btn-primary" name="offensivePlay" id="superPlay" value="Reset game" />
 				
                 <!--<input type="button" name="button" id="" value="大师水平" disabled />
 				
@@ -39,11 +42,11 @@
 			-->
 			
 			<!--	<input type="button" name="regret" id="regretBn" value="悔棋" />-->
-			<input type="button" name="regret" id="regretBn" value="Undo move" />
+			<input type="button" class="btn btn-primary" name="regret" id="regretBn" value="Undo move" />
 			
-				<input type="button" name="billBn" id="billBn" value="棋谱" class="bn_box" />
+				<input type="button"  name="billBn" id="billBn" value="棋谱" class="bn_box" />
 				<!--<input type="button" name="stypeBn" id="stypeBn" value="换肤" />-->
-					<input type="button" name="stypeBn" id="stypeBn" value="Change board" />
+					<input type="button" class="btn btn-primary" name="stypeBn" id="stypeBn" value="Change board" />
 				<!--<input type="button" name="download" id="download" value="源码下载" onClick="window.open('https://github.com/itlwei/ChinaChess-html5')" />-->
 			</div>
 		</div>
