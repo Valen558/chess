@@ -9,7 +9,7 @@
 @charset "gb2312";
 body{  font-size: 14px; line-height: 150%; }
 .box { margin:0 auto; width:640px; position: relative; }
-.chess_left {float:left; text-align:center }
+.chess_left {float:left; text-align:center; margin-top:30px; }
 .chess_right {  float:left; display:none}
 .move_info {  float:left; margin-top:20px}
 
