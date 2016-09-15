@@ -11,6 +11,9 @@ var com = com||{};
 
 com.init = function (stype){
 	
+	
+	
+	
 	com.nowStype= stype || com.getCookie("stype") ||"stype2";
 	var stype = com.stype[com.nowStype];
 	com.width			=	stype.width;		//画布宽度
@@ -73,7 +76,7 @@ window.onload = function(){
 	com.get("bnBox").style.display = "block";
 	//play.init();
 	com.get("billBn").addEventListener("click", function(e) {
-		if (confirm("是否结束对局，开始棋局研究？")){
+		if (1||confirm("是否结束对局，开始棋局研究？")){
 			com.init();
 			com.get("chessRight").style.display = "block";
 			com.get("moveInfo").style.display = "none";
@@ -81,7 +84,7 @@ window.onload = function(){
 		}
 	})
 	com.get("superPlay").addEventListener("click", function(e) {
-		if (confirm("确认开始大师级对弈？")){
+		if (1||confirm("确认开始大师级对弈？")){
 			play.isPlay=true ;	
 			com.get("chessRight").style.display = "none";
 			com.get("moveInfo").style.display = "block";
@@ -91,7 +94,7 @@ window.onload = function(){
 		}
 	})
 	com.get("tyroPlay").addEventListener("click", function(e) {
-		if (confirm("确认开始新手级对弈？")){
+		if (1||confirm("确认开始新手级对弈？")){
 			play.isPlay=true ;	
 			com.get("chessRight").style.display = "none";
 			com.get("moveInfo").style.display = "block";
